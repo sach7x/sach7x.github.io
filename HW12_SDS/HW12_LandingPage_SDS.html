@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Homework 12</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md sticky-top">
+     
+                <a class="navbar-brand" href=".\HW12_LandingPage_SDS.html">Latitude</a>
+                   
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                        </button>
+                 
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Plots
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href=".\HW12_MaxTemp_SDS.html">Latitude vs Max Temperature</a>
+                              <a class="dropdown-item" href=".\HW12_Humidity_SDS.html">Latitude vs Humidity</a>
+                              <a class="dropdown-item" href=".\HW12_WindSpeed_SDS.html">Latitude vs Windspeed</a>
+                              <a class="dropdown-item" href=".\HW12_Cloudiness_SDS.html">Latitude vs Cloudiness</a>
+                            </div>
+                          </li>
+                      <li class="nav-item ">
+                        <a class="nav-link" href=".\HW12_Comparison_SDS.html">Comparison</a> <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href=".\HW12_Data_SDS.html">Data</a>
+                      </li>
+                      
+                    </ul>
+                
+                  </div>
+                </div>
+                </nav>
+
+                <div class="content">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-8">
+                                    <div class="box">
+                                        <div class="page-header">
+                                            <h1 class="title">Summary: Latitude vs. X</h1>
+                                        </div>
+                                        <div class="box">
+                                            <img src=".\MaxTemp.png" alt="Latitude vs. Max Temperature" height="280" width="280" align="left">
+                                            <p> The purpose of this project was to analyze how weather changes as you get closer to the equater. To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.</p>
+                                            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, windspeed, and humidity. This site provides the source data and visualizations created as part of the analysis,as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="box">
+                                        <div class="page-header">
+                                            <h1 class="title">Visualizations</h1>
+                                        </div>
+                                        <div class="box">
+                                           <a href="./HW12_MaxTemp_SDS.html"><img src="./MaxTemp.png" alt="Latitude vs. Max Temperature" title="Latitude vs. Max Temperature" height="160" width="160"></a>
+                                           <a href="./HW12_Humidity_SDS.html"><img src="./Humidity.png" alt="Latitude vs. Humidity" title="Latitude vs. Humidity" height="160" width="160"></a>
+                                           <a href="./HW12_Cloudiness_SDS.html"><img src="./Cloudiness.png" alt="Latitude vs. Cloudiness" title="Latitude vs. Cloudiness" height="160" width="160"></a>
+                                           <a href="./HW12_WindSpeed_SDS.html"><img src="./WindSpeed.png" alt="Latitude vs. Wind Speed" title="Latitude vs. Wind Speed" height="160" width="160"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>                               
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
